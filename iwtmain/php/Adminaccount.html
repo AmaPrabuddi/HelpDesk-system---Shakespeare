@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin account</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="greencss.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="adminhome.css"> -->
+	<link rel="stylesheet" type="text/css" href="../styles/Adminaccount.css">
+</head>
+<body>
+<div style="width:100%;margin-top:150px;margin-bottom:150px;
+    justify-content:center;">
+	<table>
+		<tr>
+			<td id="Home">Home</td>
+			<td>Tickets</td>
+          <td><a href="DisplaytForm.php">Transfer Forms</a></td>
+			<td>Setting</td>	
+			
+			<td><a href="#">search</a></td>
+			<td style="float: right;"><a href="#">signout</a></td>
+		</tr>
+	</table>
+
+	<div id="admin_information">
+
+		<div id="admin_image">
+			<img src="../images\profilephoto.jpg">
+         <h2>Alia is an experienced and devoted university administrator who is passionate about education and committed to creating a culture of academic success. With 3 years of administrative expertise in higher education, I have been instrumental in ensuring the efficient operation of numerous university departments and contributing to the institution's overall growth and success.</h2>
+         <div id="admin_controls">
+            <button style="float: right;">Edit profile</button>
+            </div>
+		</div>
+		<button style="float: left; margin-top: 50px;"><a href="./Displaysignup.php">Users</a></button>
+      <h1>Manage Users</h1>
+		<div id="admin_details">
+		<label>Old User Name</label>
+		<input type="text" name="Old User Name">
+
+		<label>New User Name</label>
+		<input type="text" name="New User Name">
+
+		<label>Confirm User Name</label>
+		<input type="text" name="Confirm User Name">
+
+      <div id="admin_controls">
+      <button style="float: right;">save</button>
+      </div>
+
+      <h2>Account activation</h2>                
+		<label>Enter User Name</label>
+		<input type="text" name="Enter User Name">	
+
+        <div id="admin_controls">
+         <button style="float: left;">Activate</button>
+         <button style="float: left;">Deactivate</button>
+      </div>     
+      
+          
+   </div>
+   
+</body>
+</html>

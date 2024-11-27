@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: rgb(231, 210, 184);
+}
+
+input[type="text"] {
+    width: 100%; /* Adjust based on your design */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="email"] {
+    width: 100%; /* Adjust based on your design */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea{
+    width: 100%; /* Adjust based on your design */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background-color: #007BFF; /* This is a general blue color, adjust to match your design */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+label {
+    display: block;
+    margin:15px 0 5px;
+}

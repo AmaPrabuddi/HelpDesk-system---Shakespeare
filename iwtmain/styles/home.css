@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    background-color: rgb(231, 210,184);
+    padding: 0 0px;
+    
+  }
+
+
+  .carousel-item {
+    width: 60%;
+    aspect-ratio: 2/1;
+}
+
+/* Styles pour le bouton gauche du carrousel */
+#carousel-bouton-gauche {
+    display: none;
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6%;
+    aspect-ratio: 1/1;
+}
+
+/* Styles pour le bouton droit du carrousel */
+#carousel-bouton-droite {
+    position: absolute;
+    left: 84%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6%;
+    aspect-ratio: 1/1;
+}
+
+/* Styles pour les boutons gauche et droit du carrousel au survol */
+#carousel-bouton-gauche:hover,
+#carousel-bouton-droite:hover {
+    width: 7%;
+}
+
+/* Styles pour les écrans de petite taille (largeur maximale de 800px) */
+@media screen and (max-width: 800px) {
+    .carousel-item {
+        width: 80%;
+    }
+
+    #carousel-bouton-droite {
+        left: 94%;
+    }
+
+    #carousel-bouton-gauche {
+        left: 5%;
+    }
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 30px;
+}
+button {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.paragraph-box{
+    align-items:center;
+    border:1px solid black;
+    background-color:rgb(179, 172, 172);
+    color:rgb(19, 14, 14);
+    width:97vw;
+    padding:4px;
+    line-height: 1.5;
+  }
